@@ -46,7 +46,7 @@ Following which I followed their [tutorial](https://docs.ros.org/en/foxy/Tutoria
 The last task here was to run a robot and visualize its laser scan data using `rviz`. To do this I chose the `dummy_robot` that is included with your ROS2 install. 
 I [followed](https://docs.ros.org/en/foxy/Tutorials/dummy-robot-demo.html) this tutorial for getting the dummy_robot up and running. After that it was a simple matter of adding a LaserScan element to `rviz` and viola:
 
-![Laser Scan](/assets/Laser_Scan.gif)
+![Laser Scan](/blog/assets/Laser_Scan.gif)
 
 ### Turtlebot Challenge
 I followed [this](https://automaticaddison.com/how-to-install-ros-2-navigation-nav2/) guide for the install of the turtlebot pre-requisites.
