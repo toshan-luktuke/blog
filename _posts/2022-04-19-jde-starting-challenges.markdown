@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "JDE Robot Starting Challenges"
+title:  "Getting Started With GSoC"
 date:   2022-04-19 10:17:05 +0530
 categories: gsoc22
 ---
@@ -45,7 +45,8 @@ Following which I followed their [tutorial](https://docs.ros.org/en/foxy/Tutoria
 
 The last task here was to run a robot and visualize its laser scan data using `rviz`. To do this I chose the `dummy_robot` that is included with your ROS2 install. 
 I [followed](https://docs.ros.org/en/foxy/Tutorials/dummy-robot-demo.html) this tutorial for getting the dummy_robot up and running. After that it was a simple matter of adding a LaserScan element to `Rviz` and viola:
-![Laser Scan](https://github.com/toshan-luktuke/JDE_Challenges/blob/main/assets/Laser_Scan.gif)
+
+<img src="https://github.com/toshan-luktuke/JDE_Challenges/blob/main/assets/Laser_Scan.gif">
 
 ### Turtlebot Challenge
 I followed [this](https://automaticaddison.com/how-to-install-ros-2-navigation-nav2/) guide for the install of the turtlebot pre-requisites.
@@ -66,4 +67,4 @@ I did some reverse engineering using the `RQT` tool in ROS2 to figure out which 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GzRo4oeLvBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Repository link: https://github.com/toshan-luktuke/JDE_Challenges
+Repository link: [https://github.com/toshan-luktuke/JDE_Challenges](https://github.com/toshan-luktuke/JDE_Challenges)
