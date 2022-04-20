@@ -4,7 +4,7 @@ title:  "Getting Started With GSoC"
 date:   2022-04-19 10:17:05 +0530
 categories: gsoc22
 ---
-Hey, I am Toshan Luktuke from VJTI, Mumbai. This is the first year I'm applying for GSoC. After looking through a wide variety of organisations, I chose JDE Robot. 
+Hey there, My name is Toshan Luktuke, I'm a Second Year student at VJTI, Mumbai. This is the first year I'm applying for GSoC. After looking through a wide variety of organisations, I chose JDE Robot. 
 I wanted to do something related to robotics for the summer and JDE perfectly captured my interests of robotics and engaging teaching.
 
 ## Getting Started
@@ -24,17 +24,17 @@ The C++ challenge was quite interesting.
 It involved tracing the longest path possible through a labyrinth composed of **#**'s with **.**'s as the path.
 My initial thought was to use some sort of reverse heuristic approach to get the longest path. However, I quickly abandonded that idea as we had to always find the longest path and heuristic apporaches are not guaranteed to find this path everytime. 
 
-I settled on a recursive backtracking approach and it worked like a charm. Another challenge was using `CMAKE's` build system, it took a bit of trial and error to get everything working propoerly.
+I settled on a recursive backtracking approach and it worked like a charm. Another challenge was using `CMAKE's` build system, it took a bit of trial and error to get everything working properly.
 
 For the Python Challenge, we had to simulate the movement of a particle. I did this using `matplotlib` and its animate class.
 Since I had prior experience with how particles work due to previous projects, this one was quite simple.
 
 ### Robotics Academy
 The next challenge involved solving one exercise from JDE's Robot Academy. Here we had to install the Docker container that contains these exercises. I followed their [official instructions](http://jderobot.github.io/RoboticsAcademy/installation/) for the same. 
-I faced some issues with enabling hardware acceleration. However despite trying many different alternatives, I couldn't use my Nvidia GPU with the Docker Image at the end.
+I faced some issues with enabling hardware acceleration. However despite trying many different alternatives, I couldn't use my Nvidia GPU with the Docker Image at the end. Still, it wasn't a huge issue as the simulation was running smoothly even without the dedicated GPU.
 
 I decided to take up the PID Racecar Exercise.The simulation worked quite well despite the lack of hardware acceleration.  
-After playing around with JDE's `HAL` and `GUI` classes, some revision of Colour Filters in CV2 and a lot of PID tuning later:
+After playing around with JDE's `HAL` and `GUI` classes, some revision of Colour Filters in CV2 and a **lot** of PID tuning later:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wbu0eO-DN-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### ROS2 Challenge
