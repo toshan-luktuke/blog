@@ -61,7 +61,7 @@ However while following the install guide I had installed some packages in the l
 source /opt/ros/foxy/setup.bash
 ```
 
-Since I hadn't done this before there were a few errors with `CMAKE_SOURCE_PATH` while installing the required `nav2` packages. However after the above command was run, it worked like a charm.
+Since I hadn't done this before there were a few errors with `CMAKE_SOURCE_DIR` while installing the required `nav2` packages. However after the above command was run, it worked like a charm.
 
 I did some reverse engineering using the `RQT` tool in ROS2 to figure out which topic messages were being sent to, to get the turtlebot to move. My search led me to the `/goal_pose` topic. From then it was a simple matter of writing a Python script to publish `PoseStamped()` messages to the topic, and watch the bot move via script.
 
