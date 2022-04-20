@@ -4,7 +4,7 @@ title:  "Getting Started With GSoC"
 date:   2022-04-19 10:17:05 +0530
 categories: gsoc22
 ---
-Hey there, My name is Toshan Luktuke, I'm a Second Year student at VJTI, Mumbai. This is the first year I'm applying for GSoC. After looking through a wide variety of organisations, I chose JDE Robot. 
+Hello there, my name is Toshan Luktuke, I'm a Second Year student at VJTI, Mumbai. This is the first year I'm applying for GSoC. After looking through a wide variety of organisations, I chose JDE Robot. 
 I wanted to do something related to robotics for the summer and JDE perfectly captured my interests of robotics and engaging teaching.
 
 ## Getting Started

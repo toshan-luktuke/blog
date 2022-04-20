@@ -1,2 +1,2 @@
 # Toshan's Blog
-Contains my blog posts. These can be accessed via toshan-luktuke.github.io/blog
+Contains my blog posts. These can be accessed via [toshan-luktuke.github.io/blog](toshan-luktuke.github.io/blog)
